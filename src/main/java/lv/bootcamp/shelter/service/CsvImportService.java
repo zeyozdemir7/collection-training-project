@@ -15,7 +15,6 @@ public class CsvImportService {
         log.info("Starting import from {}", inputPath);
 
         List<Animal> allAnimals = new ArrayList<>();
-        List<Integer> invalidRowNumbers = new ArrayList<>();
 
         // TODO Step 1:
         // 1) Read intake.csv with UTF-8.
@@ -25,6 +24,6 @@ public class CsvImportService {
         // 5) Parse intakeDate using DateTimeFormatter.
         // 6) Map each row to Animal object.
 
-        return new ImportResult(allAnimals, invalidRowNumbers.size(), invalidRowNumbers);
+        return new ImportResult(allAnimals, 0);
     }
 }
