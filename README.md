@@ -48,8 +48,8 @@ Use Maven wrapper (recommended):
   - needs-vet-input line in format name(species)
 
 ## Stretch goals
-- Sort report sections alphabetically by species.
-- Use Optional for missing ages.
+- Sort report sections alphabetically by species. ==> done
+- Use Optional for missing ages. ==> partly-done: I used Optional for oldest animal per species not for missing age
 - Add JSON summary export.
 - Process multiple CSV files with Files.walk().
 - Write unique timestamped report filenames.
